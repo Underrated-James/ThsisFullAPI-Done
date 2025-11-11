@@ -22,6 +22,8 @@ const allowedOrigins = [
   "http://127.0.0.1:5174",
    "http://localhost:5173",
   "https://s7lkm16q-5173.asse.devtunnels.ms",
+  "https://thsis-full-api.vercel.app/",
+  "https://thsis-full-iv4ymv7uh-underrated-james-projects.vercel.app/",
   "https://unadmired-phyllotactic-cyrus.ngrok-free.dev",
   "https://thsis-full-j6zvugp0c-underrated-james-projects.vercel.app",
   "https://thsis-full-iqy18mv8j-underrated-james-projects.vercel.app",
