@@ -13,15 +13,20 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // 🌍 Allowed frontend origins
+  // 🌍 Allowed frontend origins
 const allowedOrigins = [
-  "http://localhost:5173",
+  "https://thsis-full-j6zvugp0c-underrated-james-projects.vercel.app",
+  "https://thsis-full-iqy18mv8j-underrated-james-projects.vercel.app",
   "http://127.0.0.1:5173",
-  "http://localhost:5174",      // ✅ add this
+  "http://localhost:5174",
   "http://127.0.0.1:5174",
-  "https://s7lkm16q-5173.asse.devtunnels.ms", // Frontend tunnel
-  "https://unadmired-phyllotactic-cyrus.ngrok-free.dev", // Backend tunnel (self)
-  "https://thsis-full-j6zvugp0c-underrated-james-projects.vercel.app"
+  "https://s7lkm16q-5173.asse.devtunnels.ms",
+  "https://unadmired-phyllotactic-cyrus.ngrok-free.dev",
+  "https://thsis-full-j6zvugp0c-underrated-james-projects.vercel.app",
+  "https://thsis-full-iqy18mv8j-underrated-james-projects.vercel.app",
+  "https://thsis-full-7mjoijs9l-underrated-james-projects.vercel.app"
 ];
+
 
 // 🛡️ CORS Middleware
 app.use(
@@ -60,3 +65,5 @@ app.listen(PORT, "0.0.0.0", () => {
   console.log("🔓 Allowed Origins:");
   allowedOrigins.forEach((o) => console.log("   •", o));
 });
+
+
